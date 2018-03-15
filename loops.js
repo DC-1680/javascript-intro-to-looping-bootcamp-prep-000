@@ -23,16 +23,16 @@ function whileLoop(n){
 
 
 
-function doWhileLoop(array){
+function doWhileLoop(arr){
 
   function maybeTrue() {
     return Math.random() >= 0.5
   }
 
   do{
-    array += array.pop;
-  } while (array.length >= 0 && maybeTrue());
-  return array;
+    arr += arr.pop;
+  } while (arr.length >= 0 && maybeTrue());
+  return arr;
 }
 
 /*
